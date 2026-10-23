@@ -2,6 +2,9 @@
 
 Second version of my ESP32 smart door lock (first version: [smart-door-lock-esp32](https://github.com/Mo-Kara/smart-door-lock-esp32)). It adds an **RC522 RFID reader** next to the keypad and runs in the **Wokwi** simulator.
 
+## Breadboard build
+![ESP32 lock with RC522 RFID reader, keypad and servo on a breadboard](images/rfid-keypad-servo-breadboard.jpg)
+
 ## Features
 - Unlock with a **4x4 keypad PIN** (`#` = enter, `*` = clear, `*` on an empty entry while open = lock) or an **RFID card** (RC522)
 - **SSD1306 OLED** (I2C) shows prompts and status
